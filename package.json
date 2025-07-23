@@ -1,0 +1,25 @@
+{
+  "name": "azure-openai-backend-integration",
+  "version": "1.0.0",
+  "description": "azure openai backend integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed411/azure-openai-backend-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed411/azure-openai-backend-integration/issues"
+  },
+  "homepage": "https://github.com/ahmed411/azure-openai-backend-integration#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "openai": "^5.10.2"
+  }
+}
