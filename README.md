@@ -2,32 +2,44 @@
 
 ## Overview
 
-This is the backend API for the Azure OpenAI Chatbot project.  
-It handles chat requests and communicates with Azure OpenAI.
+This project serves as the backend API for an Azure OpenAI Chatbot. It's responsible for handling chat requests and communicating with Azure OpenAI services to provide conversational AI capabilities.
 
----
+## Features
+
+Handles chat message requests.
+
+Communicates with Azure OpenAI services.
+
+Manages conversation history for contextual responses.
+
+Provides a clear API endpoint for chat interactions.
 
 ## Setup
 
-### 1. Install Dependencies
+### Prerequisites
+Node.js and npm installed.
+
+An Azure account with access to Azure OpenAI services.
+
+### Install Dependencies
 
 ```sh
 npm install
 ```
 
-### 2. Environment Variables
+### Environment Variables
 
 Create a `.env` file in the `backend` folder:
 
 ```
-PORT=5000
+PORT=3000
 AZURE_OPENAI_API_KEY=your-key
 AZURE_OPENAI_ENDPOINT=your-endpoint
 AZURE_OPENAI_DEPLOYMENT_NAME=your-deployment
 AZURE_OPENAI_API_VERSION=your-api-version
 ```
 
-### 3. Start the Server
+### Start the Server
 
 ```sh
 npm start
